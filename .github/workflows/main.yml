@@ -10,5 +10,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Say hello
-        run: echo "✅ Hello from GitHub Actions!"
+      - name: Run Hello Script
+        run: bash scripts/hello.sh
+
